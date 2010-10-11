@@ -60,7 +60,7 @@ function EPTLog:UNIT_THREAT_LIST_UPDATE(event)
 	if threatValue then
 		threatValue = threatValue / 100
 		local threatdiff = threatValue - oldThreat
-		if threatdiff != 0 then self:MessageOutput(format('Threat is %s', tostring(threatdiff))) end
+		if threatdiff ~= 0 then self:MessageOutput(format('Threat is %s', tostring(threatdiff))) end
 		oldThreat = threatValue
 	end
 end
