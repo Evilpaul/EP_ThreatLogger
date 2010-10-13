@@ -1,4 +1,4 @@
-## Interface: 30300
+## Interface: 40000
 ## Title: EP |cffDAFF8A[Threat Logger]|r
 ## Notes: Print out threat information after ability use
 ## Author: EvilPaul
